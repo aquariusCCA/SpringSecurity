@@ -1,18 +1,3 @@
----
-up:
-  - "[[SpringSecurity 課程描述]]"
----
-浏览器出于安全的考虑，使用 XMLHttpRequest 对象发起 HTTP 请求时必须遵守同源策略，否则就是跨域的 HTTP 请求，默认情况下是被禁止的。 同源策略要求源相同才能正常进行通信，即协议、域名、端口号都完全一致。 
-
-​前后端分离项目，前端项目和后端项目一般都不是同源的，所以肯定会存在跨域请求的问题。
-
-所以我们就要处理一下，让前端能进行跨域请求。
-
----
-
-# ① 先对 SpringBoot 配置，运行跨域请求
-
-```java
 package com.test.config;
 
 import org.springframework.context.annotation.Configuration;
@@ -37,15 +22,3 @@ public class CorsConfig implements WebMvcConfigurer {
                 .maxAge(3600);
     }
 }
-```
-
----
-
-# ②开启SpringSecurity的跨域访问
-
-由于我们的资源都会收到 SpringSecurity 的保护，所以想要跨域访问还要让 SpringSecurity 运行跨域访问。
-
-```java
-//允许跨域  
-http.cors(Customizer.withDefaults());
-```
