@@ -159,17 +159,17 @@ UserDetails接口：提供核心用户信息。通过UserDetailsService根据用
 
 ​	①自定义登录接口  
 
-​				调用ProviderManager的方法进行认证 如果认证通过生成jwt
+​				调用 ProviderManager 的方法进行认证 如果认证通过生成 jwt
 
-​				把用户信息存入redis中
+​				把用户信息存入 redis 中
 
-​	②自定义UserDetailsService 
+​	②自定义 UserDetailsService 
 
 ​				在这个实现类中去查询数据库
 
 校验：
 
-​	①定义Jwt认证过滤器
+​	①定义 Jwt认证过滤器
 
 ​				获取token
 
