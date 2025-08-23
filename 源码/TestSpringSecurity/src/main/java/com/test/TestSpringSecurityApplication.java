@@ -11,6 +11,5 @@ public class TestSpringSecurityApplication {
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(TestSpringSecurityApplication.class, args);
-		System.out.println("111");
 	}
 }

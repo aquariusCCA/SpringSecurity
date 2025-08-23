@@ -1,6 +1,6 @@
 ---
 up:
-  - "[[SpringSecurity課程描述]]"
+  - "[[SpringSecurity 課程描述]]"
 ---
 ```xml
 <dependency>
