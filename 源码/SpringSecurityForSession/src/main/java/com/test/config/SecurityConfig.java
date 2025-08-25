@@ -1,4 +1,4 @@
-package com.test.testspringsecurity2.config;
+package com.test.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

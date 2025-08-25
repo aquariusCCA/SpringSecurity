@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: TestSpringSecurity2
+  datasource:
+        url: jdbc:mysql://localhost:3306/springsecurity?characterEncoding=utf-8&serverTimezone=UTC
+        username: root
+        password: Lins860210SStar
+        driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  servlet:
+    session:
+      timeout: 1m

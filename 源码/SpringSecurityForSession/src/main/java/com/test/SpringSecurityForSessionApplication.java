@@ -1,15 +1,15 @@
-package com.test.testspringsecurity2;
+package com.test;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.test.testspringsecurity2.mapper")
-public class TestSpringSecurity2Application {
+@MapperScan("com.test.mapper")
+public class SpringSecurityForSessionApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TestSpringSecurity2Application.class, args);
+        SpringApplication.run(SpringSecurityForSessionApplication.class, args);
     }
 
 }

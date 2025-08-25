@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.test</groupId>
-    <artifactId>TestSpringSecurity2</artifactId>
+    <artifactId>SpringSecurityForSession</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TestSpringSecurity2</name>
-    <description>TestSpringSecurity2</description>
+    <name>SpringSecurityForSession</name>
+    <description>SpringSecurityForSession</description>
     <url/>
     <licenses>
         <license/>
